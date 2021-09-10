@@ -1,0 +1,54 @@
+*{
+    margin : 0px;
+}
+
+
+.tool-bar {
+   height: 15vh;
+    display: flex;
+  }
+.tool{
+   height: 60% ;
+  }
+  .tool>img{
+      height: 100%;
+  }
+
+  .stickypad{
+      position: absolute;
+      height: 10rem;
+      width: 6rem;
+    /*  background-color: yellow;*/
+      left: 40vh;
+      top: 35vh;
+
+  }
+  .nav-bar{
+      height: 30%;
+      background-color:aquamarine;
+      display:flex ; 
+      justify-content: flex-end;
+      align-items: center;
+  }
+  .close,.minimize{
+      height: 70%;
+      width: 18%;
+      border-radius: 50%;
+      background-color: red;
+      margin-right: 4px;
+      
+  }
+  .close{
+      background-color: black;
+  }
+  .text-area{
+      height:80% ;
+      width: 100% ;
+      background-color: white;
+  }
+  .textarea{
+      height: 100%;
+      width: 100%;
+      border: none;
+      background-color:bisque;
+  }
